@@ -3,7 +3,6 @@ body {
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  height: 100vh;
   background-image: url("images/back_main.png");
   background-size: cover;
   background-position: center;
@@ -52,6 +51,7 @@ img{
   height: 50px;
   padding: 10px 20px;
   font-size: 20px;
+  font-weight: 600; 
   border: none;
   border-radius: 25px;
   background-image: url("images/green-button.png");
@@ -72,6 +72,7 @@ button:active {
   margin-bottom: 10px;
   padding: 10px 40px;
   font-size: 30px;
+  font-weight: 600; 
   min-width: 80px;
   display: flex;
   align-items: center;
@@ -87,6 +88,7 @@ button:active {
   margin-bottom: 10px;
   padding: 10px 40px;
   font-size: 30px;
+  font-weight: 600; 
   min-width: 80px;
   display: flex;
   align-items: center;
@@ -103,6 +105,7 @@ button:active {
   padding-top: 13px;
   margin-top: 10px;
   font-size: 30px;
+  font-weight: 600; 
   color: black;
   display: flex;
 }
@@ -715,9 +718,9 @@ button:active {
     transform: translate(260px, 10px);
   }
   #button{
-    width:200px;
-    height: 50px;
-    font-size: 30px;
+    width:220px;
+    height: 55px;
+    font-size: 35px;
   }
   #logo {
     width: 400px;
@@ -763,9 +766,9 @@ button:active {
     transform: translate(260px, 10px);
   }
   #button{
-    width:200px;
-    height: 50px;
-    font-size: 30px;
+    width:220px;
+    height: 55px;
+    font-size: 35px;
   }
   #logo {
     width: 400px;
@@ -811,9 +814,9 @@ button:active {
     transform: translate(310px, 10px);
   }
   #button{
-    width:200px;
-    height: 50px;
-    font-size: 30px;
+    width:220px;
+    height: 55px;
+    font-size: 35px;
   }
   #logo {
     width: 400px;
@@ -822,6 +825,101 @@ button:active {
   }
 }
 
+@media (min-width: 260px) and (max-width: 279px) {
+  .main > .buttons {
+    top: 3%;
+    left: 57%;
+  }
+  .slot-machine {
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    grid-template-rows: repeat(3, 230px);
+    gap: 1em;
+    padding: 80px;
+    transform: translate(0px, -200px);
+    margin-left: 600px;
+  }
+
+  #section{
+    transform: translate(0px, 1600px);
+  }
+
+  img{
+    width: 236px;
+  }
+
+  .reel > div {
+    width: 120px;
+    height: 120px;
+    transform: translate(-58px, -58px);
+  }
+  .btn {
+    height: 30px;
+    width: 30px;
+    font-size: 8px;
+  }
+  .system {
+    transform: translate(310px, 10px);
+  }
+  #button{
+    width:240px;
+    height: 60px;
+    font-size: 40px;
+  }
+  #logo {
+    width: 400px;
+    height: 90px;
+    transform: translate(300px, -150px);
+  }
+}
+
+@media (min-width: 240px) and (max-width: 259px) {
+  .main > .buttons {
+    top: 3%;
+    left: 57%;
+  }
+  .slot-machine {
+    display: grid;
+    grid-template-columns: repeat(3, 230px);
+    grid-template-rows: repeat(3, 230px);
+    gap: 1em;
+    padding: 80px;
+    transform: translate(0px, -200px);
+    margin-left: 600px;
+  }
+
+  #section{
+    transform: translate(0px, 1800px);
+  }
+
+  img{
+    width: 236px;
+  }
+
+  .reel > div {
+    width: 120px;
+    height: 120px;
+    transform: translate(-58px, -58px);
+  }
+  .btn {
+    height: 30px;
+    width: 30px;
+    font-size: 8px;
+  }
+  .system {
+    transform: translate(310px, 10px);
+  }
+  #button{
+    width:240px;
+    height: 60px;
+    font-size: 40px;
+  }
+  #logo {
+    width: 400px;
+    height: 90px;
+    transform: translate(300px, -150px);
+  }
+}
 
 
 /*Горизонталь*/
